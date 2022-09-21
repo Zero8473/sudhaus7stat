@@ -1,0 +1,195 @@
+@import "variables.css";
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 2.142;
+  font-family: Raleway,sans-serif;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3b3d42;
+  h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-12 {width: 100%;}
+  .col-11 {width: 91.66%;}
+  .col-10 {width: 83.33%;}
+  .col-9 {width: 75%;}
+  .col-8 {width: 66.66%;}
+  .col-7 {width: 58.33%;}
+  .col-6 {width: 50%;}
+  .col-5 {width: 41.66%;}
+  .col-4 {width: 33.33%;}
+  .col-3 {width: 25%;}
+  .col-2 {width: 16.66%;}
+  .col-1 {width: 8.33%;}
+
+  header{
+    display: flex;
+    width: 100%;
+    background-color: hsl(270, 85%, 0% /0.7);
+    color: #fff;
+    position: fixed;
+    z-index: 1;
+    .logo{
+      display: flex;
+      margin:7px;
+      justify-content: center;
+      img{
+        width: 190px;
+        height: 52px;
+        margin-left: -100px;
+        color: #fff;
+      }
+    }
+    #header-nav{
+      margin-left: -100px;
+      ul{
+        list-style: none;
+        width: 33.33%;
+        height: 66px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 17px;
+        text-transform: uppercase;
+        line-height: 15px;
+        letter-spacing: 1.2px;
+        li{
+
+        }
+        a{
+          text-decoration: none;
+          &:visited{
+            color:#fff;
+          }
+        }
+      }
+    }
+    .toolbar{
+      position: fixed;
+      background: #ee7f00;
+      top: 35%;
+      right: 0;
+      transition: all .5s ease 0s;
+      display: block;
+      z-index: 99999;
+      figure{
+        width: 54px;
+        padding: .6em .2em;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        img{
+          width:100%;
+          max-width: 25px;
+          border: none;
+
+
+        }
+        &:after{
+          content: '';
+          position: absolute;
+          width: 60%;
+          left: 20%;
+          background: #fff;
+          height: 1px;
+          bottom: 0;
+        }
+        &:last-child:after{
+          display: none;
+        }
+      }
+
+    }
+
+  }
+  //header slide in animation
+  .animated{
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+    0%{
+      -webkit-transform:translateX(-1000px);
+    }
+    100%{
+      -webkit-transform:translateX(0);
+    }
+  }
+  @keyframes fadeInLeft {
+    0%{
+      transform: translateX(-1000px);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+
+  .brauerei-background{
+    -webkit-animation-name:fadeInLeft;
+    animation-name:fadeInLeft;
+    display: grid;
+    place-content: center;
+    position: relative;
+    isolation: isolate;
+    min-height: 925px;
+    top:30px;
+    .header, .subheader{
+      text-align: center;
+      color: var(--header-color);
+    }
+    .header{
+      width: 100%;
+      font-size: 86px;
+      line-height: 90px;
+      padding: 55px 0 0;
+      margin: 0 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .subheader{
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 50px;
+      letter-spacing: 1.2px;
+    }
+    &:after{
+      content:'';
+      background-image: var(--background-img);
+      background-size: cover;
+      background-position: center;
+      top: 55px;
+      inset:0;
+      z-index: -1;
+      position: absolute;
+    }
+
+
+  }
+
+
+
+
+}
