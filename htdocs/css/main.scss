@@ -18,13 +18,16 @@ body{
   font-size: 14px;
   line-height: 2.142;
   font-family: Raleway,sans-serif;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   color: #3b3d42;
   h1{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  strong{
+    font-weight: 700;
   }
 
   .col-12 {width: 100%;}
@@ -122,7 +125,7 @@ body{
     }
 
   }
-  //header slide in animation
+  // slide in animation
   .animated{
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
@@ -195,7 +198,7 @@ body{
     position: relative;
     isolation: isolate;
     min-height: 925px;
-    top:30px;
+    top:30px;  /*ask about background image here vs original position */
     .header, .subheader{
       text-align: center;
       color: var(--header-color);
@@ -235,6 +238,10 @@ body{
     //justify-content: space-between;
     width: 100%;
     max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; /*ask about background image here vs original position */
+    padding: 73px 0 49px;
     position: relative;
     .column-1, .column-2, .column-3{
       width:33.33%;
@@ -247,7 +254,7 @@ body{
       text-transform: uppercase;
       .title-1{
         color: #000;
-        font-family: "Raleway",Raleway Sans-serif;
+        font-family: "Raleway",Raleway, Sans-serif;
         font-size: 18px;
         font-weight: 300;
         text-transform: uppercase;
@@ -287,20 +294,43 @@ body{
 
         .title-2{
           transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+          color: #000;
+          font-size: 18px;
+          line-height: 2.143em;
+          margin-bottom: 40px;
+
+        }
+        .text-2{
+          color: #000;
+          font-family: "Raleway",Raleway Sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+
         }
       }
-      .title-1{
-        color: #000;
-        font-family: "Raleway",Raleway Sans-serif;
+    }
+    .column-3{
+      .title-3{
+        padding: 36px 15px 0 27px;
+        color:#000;
         font-size: 18px;
-        font-weight: 500;
-        line-height: 2.143em;
-        margin-bottom: 20px;
-
+        font-weight: 700;
+        text-transform: uppercase;
       }
     }
 
   }
+
+
+
+  //brauerei flex
+  .mix{
+    background-image: url("https://sudhaus7.de/wp-content/uploads/2020/02/BierblubbermitOrange.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
 
 

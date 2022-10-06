@@ -23,10 +23,10 @@
                 </ul>
         </div>
         <div class="toolbar">
-            <figure><img src="images/phone.png"></figure>
-            <figure><img src="images/mail.png"></figure>
-            <figure><img src="images/facebook.png"></figure>
-            <figure><img src="images/instagram.png"></figure>
+            <figure><img src="images/phone.png" alt="phone icon"></figure>
+            <figure><img src="images/mail.png" alt="mail icon"></figure>
+            <figure><img src="images/facebook.png" alt="facebook icon"></figure>
+            <figure><img src="images/instagram.png" alt="instagram icon"></figure>
         </div>
     </header>
 
@@ -40,8 +40,15 @@
     </div>
 
     <div class="campaign-container">
-        <?php require_once 'campaign.php'; ?>
+        <?php require_once './content/campaign.php'; ?>
     </div>
+
+    <div class="introduction-container">
+
+    </div>
+
+
+
 
 
 </body>
