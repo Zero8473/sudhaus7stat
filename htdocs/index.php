@@ -44,7 +44,7 @@
     </div>
 
     <div class="introduction-container">
-
+        <?php require_once './content/introduction.php'?>
     </div>
 
 
