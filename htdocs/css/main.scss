@@ -321,14 +321,39 @@ body{
 
   }
 
+  .introduction-container{
+    display: flex;
+
+    .about{
+      width: 50%;
+      color:#fff;
+      .content{
+        background-color: black;
+        margin-top: 150px;margin-right: -15%;
+      }
+
+
+     .about-title{
+       text-transform: uppercase;
+       font-size: 18px;
+     }
+
+    }
+    .ingredients{
+      width: 50%;
+      background-image: url("https://sudhaus7.de/wp-content/uploads/2020/02/BierblubbermitOrange.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+
 
 
   //brauerei flex
   .mix{
-    background-image: url("https://sudhaus7.de/wp-content/uploads/2020/02/BierblubbermitOrange.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
   }
 
 
