@@ -25,19 +25,19 @@
 
     <div class="ingredients-content-box">
         <div class="ingredients-title">
-            <p>Die perfekte Braumischung</p>
+            <h5>Die perfekte Braumischung</h5>
         </div>
 
         <div class="ingredients-subheader">
-            <p>Unsere Zutaten</p>
+            <h2>Unsere Zutaten</h2>
         </div>
 
         <div class="ingredients-list">
             <div class="strategy">
-                <div class="strategy-title">
+                <div class="strategy-title click">
                     <p>Strategie</p>
                 </div>
-                <div class="strategy-description">
+                <div class="strategy-description" id="click-show1">
                     <p>
                         Analysen, Strategieentwicklung, Konzeption:
                         Wir beraten und begleiten Sie umfassend und entwickeln gemeinsam mit Ihnen ein Konzept,
@@ -46,10 +46,10 @@
                 </div>
             </div>
             <div class="design">
-                <div class="design-title">
+                <div class="design-title click">
                     <p>Gestaltung</p>
                 </div>
-                <div class="design-description">
+                <div class="design-description click-show">
                     <p>
                         Individuelles, innovatives und kreatives Design, perfekt auf Sie zugeschnitten:
                         Wir verleihen Ihrem Unternehmen, Produkt oder Ihrer Marke einen einzigartigen und unverwechselbaren Look!
@@ -57,10 +57,10 @@
                 </div>
             </div>
             <div class="implementation">
-                <div class="implementation-title">
+                <div class="implementation-title click">
                     <p>Umsetzung</p>
                 </div>
-                <div class="implementation-description">
+                <div class="implementation-description click-show">
                     <p>
                         Konzept und Design treffsicher und passgenau umgesetzt:
                         in allen Kommunikationskanälen, die für Sie die richtigen sind – egal ob Print,
@@ -69,10 +69,10 @@
                 </div>
             </div>
             <div class="technology">
-                <div class="technology-title">
+                <div class="technology-title click">
                     <p>Technik</p>
                 </div>
-                <div class="technology-description">
+                <div class="technology-description click-show">
                     <p>
                         Mit Sicherheit die beste Technik: Wir setzen Ihre Projekte auf dem neuesten Stand der Technik um
                         und tun alles für einen perfekten und sicheren Auftritt in der digitalen Welt,
