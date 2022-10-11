@@ -1,11 +1,11 @@
 <div class="about">
     <div class="about-content-box">
         <div class="about-title">
-            <p>Unsere Ideen-Brauerei</p>
+            <h5>Unsere Ideen-Brauerei</h5>
         </div>
 
         <div class="about-subtitle">
-            <p>Wir brauen nach ihrem Geschmack</p>
+            <h2>Wir brauen nach ihrem Geschmack</h2>
         </div>
 
         <div class="about-text">
