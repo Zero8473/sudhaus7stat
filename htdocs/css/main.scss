@@ -84,12 +84,16 @@ body{
           &:visited{
             color:#fff;
           }
+          &:hover{
+            color: var(--color-orange);
+          }
+
         }
       }
     }
     .toolbar{
       position: fixed;
-      background: #ee7f00;
+      background: var(--color-orange);
       top: 35%;
       right: 0;
       transition: all .5s ease 0s;
