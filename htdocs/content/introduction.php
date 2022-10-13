@@ -22,7 +22,6 @@
 </div>
 
 <div class="ingredients-container">
-
     <div class="ingredients-content-box">
         <div class="ingredients-title">
             <h5>Die perfekte Braumischung</h5>
@@ -33,11 +32,11 @@
         </div>
 
         <div class="ingredients-list">
-            <div class="strategy item">
+            <div class="item">
                 <div class="toggle-title">
                     <p>Strategie</p>
                 </div>
-                <div class="strategy-description click-show">
+                <div class="show-description">
                     <p class="text">
                         Analysen, Strategieentwicklung, Konzeption:
                         Wir beraten und begleiten Sie umfassend und entwickeln gemeinsam mit Ihnen ein Konzept,
@@ -45,22 +44,22 @@
                     </p>
                 </div>
             </div>
-            <div class="design item">
+            <div class="item">
                 <div class="toggle-title">
                     <p>Gestaltung</p>
                 </div>
-                <div class="design-description click-show">
+                <div class="show-description">
                     <p class="text">
                         Individuelles, innovatives und kreatives Design, perfekt auf Sie zugeschnitten:
                         Wir verleihen Ihrem Unternehmen, Produkt oder Ihrer Marke einen einzigartigen und unverwechselbaren Look!
                     </p>
                 </div>
             </div>
-            <div class="implementation item">
+            <div class="item">
                 <div class="toggle-title">
                     <p>Umsetzung</p>
                 </div>
-                <div class="implementation-description click-show">
+                <div class="show-description">
                     <p class="text">
                         Konzept und Design treffsicher und passgenau umgesetzt:
                         in allen Kommunikationskanälen, die für Sie die richtigen sind – egal ob Print,
@@ -68,11 +67,11 @@
                     </p>
                 </div>
             </div>
-            <div class="technology item">
+            <div class="item">
                 <div class="toggle-title">
                     <p>Technik</p>
                 </div>
-                <div class="technology-description click-show">
+                <div class="show-description">
                     <p class="text">
                         Mit Sicherheit die beste Technik: Wir setzen Ihre Projekte auf dem neuesten Stand der Technik um
                         und tun alles für einen perfekten und sicheren Auftritt in der digitalen Welt,

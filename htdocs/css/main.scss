@@ -227,7 +227,7 @@ body{
     &:after{
       content:'';
       background-image: var(--background-img);
-      opacity: var(--background-opacity);
+      opacity: var(--background-opacity1);
       background-size: cover;
       background-position: center;
       top: 55px;
@@ -384,13 +384,13 @@ body{
         isolation: isolate;
         position: relative;
         margin: 194px 0 -211px;
-        padding: 128px 20% 111px 16%;
+        padding: 150px 20% 111px 16%;
         background-color: var(--background-color1);
         color:#fff;
         &:after{
           content: '';
           background-image: url("https://sudhaus7.de/wp-content/uploads/2020/02/BierblubbermitOrange.jpg");
-          opacity: var(--background-opacity);
+          opacity: var(--background-opacity2);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -398,6 +398,7 @@ body{
           z-index: -1;
           position: absolute;
         }
+
         .ingredients-title{
           margin-bottom: 20px;
           h5{
@@ -409,7 +410,7 @@ body{
           }
         }
         .ingredients-subheader{
-          padding: 16px 0 40px;
+          padding: 16px 0 20px;
           h2{
             font-size: 36px;
             font-weight: 700;
@@ -418,8 +419,15 @@ body{
             letter-spacing: 1.8px;
           }
         }
+
         .ingredients-list{
           margin-top: 21px;
+          .item{
+            margin:2px 0 0;
+            &:last-of-type{
+              margin-bottom: 0;
+            }
+          }
 
           /*before click (default)*/
           .toggle-title{
@@ -433,24 +441,32 @@ body{
 
             }
 
-            & ~.click-show{
+            & ~.show-description{
               display: none;
+              padding-right: 56px;
+              padding-bottom: 13px;
             }
 
             &:before{
               content:'\002B';/* + symbol*/
-              padding-right: 10px;
-              font-size: 24px;
+              font-size: 20px;
+              transform: scale(2);
+              padding-top: 6px;
+              padding-right: 5px;
             }
           }
           /*toggle effect on click*/
           .item{
-            /*on click*/
+            &:hover{
+              .toggle-title:before{
+                color:#000;
+              }
+            }
             &:active{
               .toggle-title{
                 color:#000;
 
-                & ~.click-show{
+                & ~.show-description{
                   display: block;
 
                 }
@@ -462,11 +478,10 @@ body{
 
           }
 
-          .click-show{
+          .show-description{
             padding: 3px 0 0 27px;
             .text{
               font-size: 18px;
-              margin: 0 0 1em;
               line-height: 2.61em;
               letter-spacing: 0;
               padding-left:16px;
@@ -475,20 +490,20 @@ body{
 
 
           /*
-          .click-show{
+          .show-description{
 
             visibility: hidden;
           }
-          .click-show{
+          .show-description{
             visibility: hidden;
           }
-          #click-show1{
+          #show-description1{
             display: none;
           }
           .click{
             &:active{
               color:#000;
-              &~ #click-show1{
+              &~ #show-description1{
                 display: block;
               }
 
