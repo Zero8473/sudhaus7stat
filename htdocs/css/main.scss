@@ -420,19 +420,73 @@ body{
         }
         .ingredients-list{
           margin-top: 21px;
-          p{
-            font-size: 18px;
-            margin: 0 0 1em;
+
+          /*before click (default)*/
+          .toggle-title{
+            display: flex;
+            cursor: pointer;
+            p{
+              font-size: 24px;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: 1.2px;
+
+            }
+
+            & ~.click-show{
+              display: none;
+            }
+
+            &:before{
+              content:'\002B';/* + symbol*/
+              padding-right: 10px;
+              font-size: 24px;
+            }
+          }
+          /*toggle effect on click*/
+          .item{
+            /*on click*/
+            &:active{
+              .toggle-title{
+                color:#000;
+
+                & ~.click-show{
+                  display: block;
+
+                }
+                &:before{
+                  content: "\2212";/* - symbol*/
+                }
+              }
+            }
+
+          }
+
+          .click-show{
+            padding: 3px 0 0 27px;
+            .text{
+              font-size: 18px;
+              margin: 0 0 1em;
+              line-height: 2.61em;
+              letter-spacing: 0;
+              padding-left:16px;
+            }
+          }
+
+
+          /*
+          .click-show{
+
+            visibility: hidden;
           }
           .click-show{
-            display: none;
+            visibility: hidden;
           }
           #click-show1{
             display: none;
           }
           .click{
-
-            &:hover{
+            &:active{
               color:#000;
               &~ #click-show1{
                 display: block;
@@ -440,6 +494,7 @@ body{
 
             }
           }
+          */
         }
 
       }
