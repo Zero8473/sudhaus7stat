@@ -33,7 +33,7 @@
 
         <div class="ingredients-list">
             <div class="item">
-                <div class="toggle-title">
+                <div class="toggle-title symbolPlus" onclick="toggleItem1()">
                     <p>Strategie</p>
                 </div>
                 <div class="show-description">
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="toggle-title">
+                <div class="toggle-title symbolPlus " onclick="toggleItem2()">
                     <p>Gestaltung</p>
                 </div>
                 <div class="show-description">
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="toggle-title">
+                <div class="toggle-title symbolPlus " onclick="toggleItem3()">
                     <p>Umsetzung</p>
                 </div>
                 <div class="show-description">
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="toggle-title">
+                <div class="toggle-title symbolPlus " onclick="toggleItem4()">
                     <p>Technik</p>
                 </div>
                 <div class="show-description">
