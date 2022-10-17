@@ -48,6 +48,11 @@
     <div class="introduction-container">
         <?php require_once './content/introduction.php'?>
     </div>
+    <div class="variety-container">
+        <?php require_once './content/variety.php'?>
+    </div>
+
+
 
 
 </body>
