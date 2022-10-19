@@ -249,6 +249,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px; /*ask about background image here vs original position */
+    margin-bottom: 35px;
     padding: 73px 0 49px;
     position: relative;
     .column-1, .column-2, .column-3{
@@ -333,6 +334,7 @@ body{
     display: flex;
     background-color: transparent;
     background-image: linear-gradient(90deg, #000 70%, #fff 30%); //creates the visual effect of overlapping boxes
+    margin-bottom: 211px;
 
     .about {
       width: 50%;
