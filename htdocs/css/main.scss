@@ -6,11 +6,14 @@
   src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/*browser reset*/
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
+
+/*general styling*/
 body{
   background-color: #fff;
   font-style: normal;
@@ -43,6 +46,7 @@ body{
   .col-2 {width: 16.66%;}
   .col-1 {width: 8.33%;}
 
+  /*header section*/
   header{
     display: flex;
     width: 100%;
@@ -129,6 +133,8 @@ body{
     }
 
   }
+
+
   // slide in animation
   .animated{
     -webkit-animation-duration: 2s;
@@ -194,6 +200,10 @@ body{
     animation-name: fadeInRight;
   }
 
+
+
+
+  /*background section*/
   .brauerei-background{
     -webkit-animation-name:fadeInLeft;
     animation-name:fadeInLeft;
@@ -328,8 +338,8 @@ body{
 
   }
 
-  /*About section*/
 
+  /*About section*/
   .introduction-container {
     display: flex;
     background-color: transparent;
@@ -345,43 +355,38 @@ body{
         margin-bottom: 120px;
         /*margin-right: -15%; //alternative method for overlapping boxes. Requires the right box to have a margin-top */
         padding: 135px 2% 0 31.5%;
-      }
+        .about-title {
+          margin-bottom: 20px;
 
-      .about-title {
-        margin-bottom: 20px;
-
-        h5 {
-          text-transform: uppercase;
-          font-size: 18px;
-          font-weight: 300;
-          line-height: 1.285em;
-          letter-spacing: 1.8px;
-        }
-      }
-
-      .about-subtitle {
-        padding: 16px 0 18px;
-
-        h2 {
-          font-size: 36px;
-          font-weight: 700;
-          text-transform: uppercase;
-          line-height: 1.3333em;
-          letter-spacing: 1.8px;
-        }
-      }
-
-      .about-text {
-        margin-top: 21px;
-
-        p {
-          font-size: 18px;
-          margin: 0 0 1em;
-
+          h5 {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.285em;
+            letter-spacing: 1.8px;
+          }
         }
 
-      }
+        .about-subtitle {
+          padding: 16px 0 18px;
 
+          h2 {
+            font-size: 36px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.3333em;
+            letter-spacing: 1.8px;
+          }
+        }
+
+        .about-text {
+          margin-top: 21px;
+          p {
+            font-size: 18px;
+            margin: 0 0 1em;
+          }
+        }
+      }
     }
 
     .ingredients-container {
@@ -521,6 +526,7 @@ body{
   }
 
 
+  /*variety section*/
   .variety-section-container{
     display: flex;
     flex-wrap: wrap;
@@ -579,6 +585,43 @@ body{
         }
       }
     }
+  }
+
+
+  /*gallery section*/
+  .gallery-container{
+    .gallery-row{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width:100%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      .gallery-element{
+        display: grid;
+        place-content: center;
+        position: relative;
+        isolation: isolate;
+        .gallery-picture{
+          img{
+            width:100%;
+            max-width: 350px;
+            height:200px;
+          }
+        }
+        .gallery-text{
+          display: none;
+          position: absolute;
+          z-index: 10;
+        }
+        &:hover > .gallery-text{
+          display: block;
+          background-color: rgba(237,127,0,.55);
+        }
+      }
+    }
+
   }
 
 }

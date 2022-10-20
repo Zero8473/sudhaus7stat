@@ -34,7 +34,7 @@
     </div>
 
     <div class="gallery-container">
-        <?php require_once ''?>
+        <?php require_once './content/gallery.php'?>
     </div>
 
 
