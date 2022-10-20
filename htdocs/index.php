@@ -28,8 +28,13 @@
     <div class="introduction-container">
         <?php require_once './content/introduction.php'?>
     </div>
+
     <div class="variety-section-container">
         <?php require_once './content/variety.php'?>
+    </div>
+
+    <div class="gallery-container">
+        <?php require_once ''?>
     </div>
 
 
