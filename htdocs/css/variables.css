@@ -9,6 +9,7 @@ body{
     --divider-border-style: solid;
     --divider-border-color: #f7992b;
     --divider-border-width: 4px;
+    --width-third: calc(100%/3);
 }
 
 
