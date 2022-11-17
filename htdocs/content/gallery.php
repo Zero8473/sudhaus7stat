@@ -17,14 +17,14 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/freiwilligendienste-drs/">
             <figure class="gallery-picture">
-                <img src="./images/us-placeholder.jpg"/>
+                <img src="./images/1_FWD_Sudhaus7_Teaser_erstesBild.jpg"/>
             </figure>
 
             <div class="gallery-text">
-                <p>This is a placeholder</p>
+                <p>Freiwilligendienste DRS</p>
             </div>
             <div class="sub-text">
-                <p>This is a placeholder</p>
+                <p>Websites</p>
             </div>
         </a>
     </div>
@@ -32,14 +32,14 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/stuttgarter-kickers/">
             <figure class="gallery-picture">
-                <img src="./images/woodsplaceholder.jpg"/>
+                <img src="./images/1_Kickers_Teaser.png"/>
             </figure>
 
             <div class="gallery-text">
-                <p>This is a placeholder</p>
+                <p>Stuttgarter Kickers</p>
             </div>
             <div class="sub-text">
-                <p>This is a placeholder</p>
+                <p>Onlineshop</p>
             </div>
         </a>
     </div>
@@ -50,14 +50,14 @@
         <a href="https://sudhaus7.de/projekte/dkr-steuerberater/">
 
             <figure class="gallery-picture">
-                <img src="./images/oceanplaceholder.jpeg"/>
+                <img src="./images/1_DKR_Sudhaus7_.jpg"/>
             </figure>
 
             <div class="gallery-text">
-                <p>This is a placeholder</p>
+                <p>DKR Steuerberater</p>
             </div>
             <div class="sub-text">
-                <p>This is a placeholder</p>
+                <p>Coporate Design | Webdesign</p>
             </div>
         </a>
     </div>
@@ -65,14 +65,14 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/baumfritze/">
             <figure class="gallery-picture">
-                <img src="./images/us-placeholder.jpg"/>
+                <img src="./images/2_baumfritze_Bildoben.jpg"/>
             </figure>
 
             <div class="gallery-text">
-                <p>This is a placeholder</p>
+                <p>Baumfritze</p>
             </div>
             <div class="sub-text">
-                <p>This is a placeholder</p>
+                <p>Web | SEO | Social Media | Geschäftsausstattung | Print | Messe</p>
             </div>
         </a>
 
@@ -81,14 +81,14 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/portfolio/bdkj/">
             <figure class="gallery-picture">
-                <img src="./images/woodsplaceholder.jpg"/>
+                <img src="./images/1_bdkj_Teaser_Sudhaus7.jpg"/>
             </figure>
 
             <div class="gallery-text">
-                <p>This is a placeholder</p>
+                <p>BDKJ</p>
             </div>
             <div class="sub-text">
-                <p>This is a placeholder</p>
+                <p>Website-Relaunch</p>
             </div>
         </a>
 
