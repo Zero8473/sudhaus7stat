@@ -33,7 +33,7 @@
         <?php require_once './content/variety.php'?>
     </div>
 
-    <div class="gallery-container">
+    <div class="gallery-container fade-in-left anim-slow">
         <?php require_once './content/gallery.php'?>
     </div>
 
