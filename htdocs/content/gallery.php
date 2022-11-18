@@ -99,5 +99,4 @@
     <a href="https://sudhaus7.de/portfolio/">
         <span>Weitere Projekte</span>
     </a>
-
 </div>

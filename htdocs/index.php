@@ -37,6 +37,10 @@
         <?php require_once './content/gallery.php'?>
     </div>
 
+    <div class="news-container">
+        <?php require_once './content/news.php'?>
+    </div>
+
 
 
 
