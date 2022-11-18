@@ -237,8 +237,8 @@ body{
         border-style: solid;
         border-color: #f7992b;
         &:hover{
-          color: #fff;
-          background-color: #f7992b;
+          color: #fff !important;
+          background-color: #f7992b !important;
         }
         &:visited{
           color: #f7992b
