@@ -41,6 +41,10 @@
         <?php require_once './content/news.php'?>
     </div>
 
+    <div class="contact-container">
+        <?php require_once './content/contact.php'?>
+    </div>
+
 
 
 

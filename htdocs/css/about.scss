@@ -4,6 +4,8 @@
   background-image: linear-gradient(90deg, #000 70%, #fff 30%); //creates the visual effect of overlapping boxes
   margin-bottom: 211px;
 
+
+  //about columns
   .about {
     width: 50%;
     color: #fff;
@@ -47,6 +49,10 @@
     }
   }
 
+
+
+
+  //ingredients column
   .ingredients-container {
     width: 50%;
     /*isolation method puts background image in between regular background and text*/
@@ -162,7 +168,6 @@
               padding-right: 5px;
             }
           }
-
 
           .show-description {
             padding: 3px 0 0 27px;

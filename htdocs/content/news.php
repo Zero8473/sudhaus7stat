@@ -33,7 +33,9 @@
         </div>
 
         <div class="more">
-            <p>Mehr</p>
+            <a href="">
+                <p>Mehr</p>
+            </a>
         </div>
 
         <div class="slick-dots"></div>
@@ -49,7 +51,7 @@
 
 <div class="newsletter">
     <div class="news-title">
-        <p></p>
+        <p>Nachgeschenkt</p>
     </div>
 
     <div class="news-subtitle">

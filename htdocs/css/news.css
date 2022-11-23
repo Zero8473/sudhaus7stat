@@ -1,0 +1,13 @@
+.news-container {
+  display: flex;
+  justify-content: space-around; }
+  .news-container .blog {
+    width: 50%;
+    background-color: #000; }
+    .news-container .blog .post {
+      display: flex; }
+  .news-container .newsletter {
+    width: 50%;
+    background-color: var(--background-color1); }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAibmV3cy5jc3MiLAoJInNvdXJjZXMiOiBbCgkJIm5ld3Muc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQUFBLEFBQUEsZUFBZSxDQUFBO0VBQ2IsT0FBTyxFQUFFLElBQUk7RUFDYixlQUFlLEVBQUUsWUFBWSxHQWE5QjtFQWZELEFBR0UsZUFIYSxDQUdiLEtBQUssQ0FBQTtJQUNILEtBQUssRUFBRSxHQUFHO0lBQ1YsZ0JBQWdCLEVBQUUsSUFBSSxHQUl2QjtJQVRILEFBTUksZUFOVyxDQUdiLEtBQUssQ0FHSCxLQUFLLENBQUE7TUFDSCxPQUFPLEVBQUUsSUFBSSxHQUNkO0VBUkwsQUFVRSxlQVZhLENBVWIsV0FBVyxDQUFBO0lBQ1QsS0FBSyxFQUFFLEdBQUc7SUFDVixnQkFBZ0IsRUFBRSx3QkFBd0IsR0FDM0MiCn0= */
