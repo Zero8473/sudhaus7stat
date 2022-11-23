@@ -5,7 +5,7 @@
         </div>
 
         <div class="contact-subtitle">
-            <h1>Kontakt</h1>
+            <h4>Kontakt</h4>
         </div>
 
         <div class="divider-1 fade-in-right anim-slow">
@@ -25,7 +25,7 @@
                 <p style="font-weight: 700">Stuttgart</p>
             </div>
             <div>
-                <p>Tel</p> <a href="tel:+49 711.1842 02-80">+49 711.1842 02-80</a>
+                <span>Tel <a href="tel:+49 711.1842 02-80">+49 711.1842 02-80</a></span>
             </div>
             <a style="background-color: white; letter-spacing: 0;" href="mailto:hallo@sudhaus7.de">hallo@sudhaus7.de</a>
             <p>Sigmaringer Straße 98</p>
@@ -40,10 +40,13 @@
     </div>
 
     <div class="contact-form">
-        <form>
+        <form action="/#wpcf7-f5-p9-o1" method="post" enctype="text/plain">
             <input type="text" class="input" name="name" value="Name">
+            <br>
             <input type="text" class="input" name="mail" value="E-Mail Adresse">
+            <br>
             <textarea cols="40" rows="10" name="message" placeholder="Ihre Nachricht an uns"></textarea>
+            <br>
             <input type="submit" value="Abschicken">
         </form>
 

@@ -1,2 +1,14 @@
+.contact-container {
+  width: 1920px;
+  left: -375px;
+  padding: 82px 0 71px; }
+  .contact-container .contact-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative; }
 
-/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiY29udGFjdC5jc3MiLAoJInNvdXJjZXMiOiBbCgkJImNvbnRhY3Quc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICIiCn0= */
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiY29udGFjdC5jc3MiLAoJInNvdXJjZXMiOiBbCgkJImNvbnRhY3Quc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQUFBLEFBQUEsa0JBQWtCLENBQUE7RUFDaEIsS0FBSyxFQUFFLE1BQU07RUFDYixJQUFJLEVBQUUsTUFBTTtFQUNaLE9BQU8sRUFBQyxXQUFXLEdBVXBCO0VBYkQsQUFJRSxrQkFKZ0IsQ0FJaEIsZ0JBQWdCLENBQUE7SUFDZCxLQUFLLEVBQUUsSUFBSTtJQUNYLFNBQVMsRUFBRSxNQUFNO0lBQ2pCLE9BQU8sRUFBRSxJQUFJO0lBQ2IsZUFBZSxFQUFFLFlBQVk7SUFDN0IsWUFBWSxFQUFFLElBQUk7SUFDbEIsV0FBVyxFQUFFLElBQUk7SUFDakIsUUFBUSxFQUFFLFFBQVEsR0FDbkIiCn0= */

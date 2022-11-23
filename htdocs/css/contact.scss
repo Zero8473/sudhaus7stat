@@ -1,0 +1,14 @@
+.contact-container{
+  width: 1920px;
+  left: -375px;
+  padding:82px 0 71px;
+  .contact-content{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+}
