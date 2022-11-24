@@ -60,8 +60,11 @@ body{
     }
   }
 
+  /*button*/
+  @import "button.scss";
+
   /*header section*/
-@import "header.scss";
+  @import "header.scss";
 
 
   // slide in animation
