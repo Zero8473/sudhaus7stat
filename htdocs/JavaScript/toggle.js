@@ -1,5 +1,32 @@
 //to make it scalable you need to check the list of elements and check each element via index to see if it was clicked on
 // -> for loop that checks from 1 to n (.length) if element of index = true and set it as toggleItem if it exists
+//window.onload waits for all html element to be there before executing the js script
+window.onload = function (){
+    accordion();
+
+};
+
+const accordion = function (){
+    const accordionHeads = document.getElementsByClassName('toggle-title');
+    for (let i = 0; i < accordionHeads.length; i++){
+        accordionHeads[i].addEventListener('click', function(){
+            console.log(accordionHeads)
+            for (let j = 0; j < accordionHeads.length; j++){
+              accordionHeads[j].classList.remove('symbolMinus');
+              accordionHeads[j].classList.add('symbolPlus');
+            }
+            /*document.getElementsByClassName('toggle-title').forEach(element => function (){
+               element.remove('symbolPlus');
+            });*/
+            //array1.forEach(element => console.log(element));
+            this.classList.add('symbolMinus');
+            this.classList.remove('symbolPlus');
+            //toggleItem();
+        });
+    }
+
+};
+
 
 function toggleItem1(){
     var toggleItem= document.getElementsByClassName('show-description')[0];//get first item of class and assign it to variable
