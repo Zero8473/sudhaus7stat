@@ -55,7 +55,10 @@
             <br>
             <textarea cols="40" rows="10" name="message" placeholder="Ihre Nachricht an uns"></textarea>
             <br>
-            <input type="submit" value="Abschicken">
+            <div class="button">
+                <input  id="submit-123" type="submit" value="Abschicken">
+            </div>
+
         </form>
 
     </div>
