@@ -1,14 +1,67 @@
 .contact-container{
-  width: 1920px;
-  left: -375px;
+ /* width: 1920px;
+  left: -375px;*/
   padding:82px 0 71px;
   .contact-content{
-    width: 100%;
-    max-width: 1200px;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    color: #000;
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    .contact-info{
+      width: 50%;
+      padding: 0 15px 0 116px;
+      .contact-title{
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 1.285em;
+        letter-spacing: 1.4px;
+        margin-bottom: 20px;
+      }
+      .contact-subtitle{
+        margin:18px 0;
+
+        h4{
+          font-size: 36px;
+          font-weight: 700;
+          text-transform: uppercase;
+          line-height: 1.3333em;
+          letter-spacing: 1.8px;
+          padding-top: 18px;
+          padding-bottom: 5px;
+        }
+      }
+      .divider-1{
+        margin-bottom: 30px;
+      }
+      .location-container{
+        margin: 17px 0 0;
+        .location{
+          font-size: 18px;
+          line-height: 2.2em;
+          .stuttgart{
+            margin-bottom: 20px;
+            a{
+             color: #f7992b;
+             text-decoration: none;
+            }
+            .title{
+              margin-top: 40px;
+            }
+          }
+
+        }
+
+
+      }
+
+    }
+    .contact-form{
+      width:50%;
+    }
   }
 }
