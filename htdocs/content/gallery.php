@@ -2,7 +2,7 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/evangelisches-medienhaus/">
             <figure class="gallery-picture">
-                <img src="./images/1_evmedienhaus-gemeindebaukasten_Sudhaus7.jpg"/>
+                <img src="./Images/1_evmedienhaus-gemeindebaukasten_Sudhaus7.jpg"/>
             </figure>
 
             <div class="gallery-text">
@@ -17,7 +17,7 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/freiwilligendienste-drs/">
             <figure class="gallery-picture">
-                <img src="./images/1_FWD_Sudhaus7_Teaser_erstesBild.jpg"/>
+                <img src="./Images/1_FWD_Sudhaus7_Teaser_erstesBild.jpg"/>
             </figure>
 
             <div class="gallery-text">
@@ -32,7 +32,7 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/stuttgarter-kickers/">
             <figure class="gallery-picture">
-                <img src="./images/1_Kickers_Teaser.png"/>
+                <img src="./Images/1_Kickers_Teaser.png"/>
             </figure>
 
             <div class="gallery-text">
@@ -50,7 +50,7 @@
         <a href="https://sudhaus7.de/projekte/dkr-steuerberater/">
 
             <figure class="gallery-picture">
-                <img src="./images/1_DKR_Sudhaus7_.jpg"/>
+                <img src="./Images/1_DKR_Sudhaus7_.jpg"/>
             </figure>
 
             <div class="gallery-text">
@@ -65,7 +65,7 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/projekte/baumfritze/">
             <figure class="gallery-picture">
-                <img src="./images/2_baumfritze_Bildoben.jpg"/>
+                <img src="./Images/2_baumfritze_Bildoben.jpg"/>
             </figure>
 
             <div class="gallery-text">
@@ -81,7 +81,7 @@
     <div class="gallery-element">
         <a href="https://sudhaus7.de/portfolio/bdkj/">
             <figure class="gallery-picture">
-                <img src="./images/1_bdkj_Teaser_Sudhaus7.jpg"/>
+                <img src="./Images/1_bdkj_Teaser_Sudhaus7.jpg"/>
             </figure>
 
             <div class="gallery-text">

@@ -1,5 +1,5 @@
 <figure class="logo col-6">
-    <img src="./images/S7Logo.png" alt="sudhaus7">
+    <img src="./Images/S7Logo.png" alt="sudhaus7">
 </figure>
 <div id="header-nav" class="col-6">
     <ul>
@@ -9,8 +9,8 @@
     </ul>
 </div>
 <div class="toolbar">
-    <figure><img src="./images/phone.png" alt="phone icon"></figure>
-    <figure><img src="./images/mail.png" alt="mail icon"></figure>
-    <figure><img src="./images/facebook.png" alt="facebook icon"></figure>
-    <figure><img src="./images/instagram.png" alt="instagram icon"></figure>
+    <figure><img src="./Images/phone.png" alt="phone icon"></figure>
+    <figure><img src="./Images/mail.png" alt="mail icon"></figure>
+    <figure><img src="./Images/facebook.png" alt="facebook icon"></figure>
+    <figure><img src="./Images/instagram.png" alt="instagram icon"></figure>
 </div>
