@@ -83,30 +83,6 @@
     width: 100%;
     max-width: 1920px;
     margin-top: 5px;
-    a{
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 3px;
-      text-align: center;
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase;
-      text-decoration: none;
-      line-height: 1.71em;
-      letter-spacing: 8.4px;
-      fill: #f7992b;
-      color: #f7992b;
-      background-color: #fff;
-      border-style: solid;
-      border-color: #f7992b;
-      &:hover{
-        color: #fff !important;
-        background-color: #f7992b !important;
-      }
-      &:visited{
-        color: #f7992b
-      }
-    }
 
   }
 

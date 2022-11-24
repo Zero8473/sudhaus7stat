@@ -95,7 +95,7 @@
     </div>
 </div>
 
-<div class="gallery-button">
+<div class="gallery-button button">
     <a href="https://sudhaus7.de/portfolio/">
         <span>Weitere Projekte</span>
     </a>
