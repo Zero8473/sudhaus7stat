@@ -1,0 +1,73 @@
+// slide in animation
+.animated{
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInLeft {
+  0%{
+    -webkit-transform:translateX(-1000px);
+  }
+  100%{
+    -webkit-transform:translateX(0);
+  }
+}
+@keyframes fadeInLeft {
+  0%{
+    transform: translateX(-1000px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0%{
+    -webkit-transform:translate3d(100%,0,0);
+    opacity: 0;
+
+  }
+  100%{
+    -webkit-transform: none;
+    opacity: 1;
+  }
+}
+@keyframes fadeInRight {
+  0%{
+    transform:translate3d(100%,0,0);
+    opacity: 0;
+
+  }
+  100%{
+    transform: none;
+    opacity: 1;
+  }
+}
+
+
+.fade-in-left{
+  -webkit-animation-name:fadeInLeft;
+  animation-name:fadeInLeft;
+}
+
+.anim-speed{
+  animation-duration: 1.25s;
+}
+.anim-slow{
+  animation-duration: 2s;
+}
+
+.fade-in-right{
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+
+
+.accordion-active{
+  height: auto !important;
+  padding-right: 56px !important;
+  padding-bottom: 13px !important;
+  transform: scaleY(1) !important;
+}
