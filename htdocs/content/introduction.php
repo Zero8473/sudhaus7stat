@@ -33,10 +33,10 @@
 
         <div class="ingredients-list">
             <div class="item">
-                <div class="toggle-title symbolPlus">
+                <div class="toggle-title symbolMinus">
                     <p>Strategie</p>
                 </div>
-                <div class="show-description">
+                <div class="show-description accordion-active">
                     <p class="text">
                         Analysen, Strategieentwicklung, Konzeption:
                         Wir beraten und begleiten Sie umfassend und entwickeln gemeinsam mit Ihnen ein Konzept,

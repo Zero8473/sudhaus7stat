@@ -8,27 +8,32 @@ window.onload = function (){
 
 const accordion = function (){
     const accordionHeads = document.getElementsByClassName('toggle-title');
+    const accordionText = document.getElementsByClassName('show-description');
     for (let i = 0; i < accordionHeads.length; i++){
         accordionHeads[i].addEventListener('click', function(){
             console.log(accordionHeads)
+            //remove the active symbol from all elements and add the standard symbol
             for (let j = 0; j < accordionHeads.length; j++){
               accordionHeads[j].classList.remove('symbolMinus');
               accordionHeads[j].classList.add('symbolPlus');
             }
-            /*document.getElementsByClassName('toggle-title').forEach(element => function (){
-               element.remove('symbolPlus');
-            });*/
-            //array1.forEach(element => console.log(element));
+            //add active symbol to the element the user clicked on and remove inactive symbol
             this.classList.add('symbolMinus');
             this.classList.remove('symbolPlus');
-            //toggleItem();
+
+            //make the text of all inactive elements invisible
+            for(let k = 0; k < accordionText.length; k++){
+                accordionText[k].classList.remove('accordion-active');
+            }
+
+            //adds accordion class to sibling of active element to display text
+            this.nextElementSibling.classList.add('accordion-active');
         });
     }
-
 };
 
 
-function toggleItem1(){
+/*function toggleItem1(){
     var toggleItem= document.getElementsByClassName('show-description')[0];//get first item of class and assign it to variable
     var toggleTitle= document.getElementsByClassName('toggle-title')[0];//get the title div of the element
 
@@ -55,76 +60,4 @@ function toggleItem1(){
     }
 
 
-}
-function toggleItem2(){
-    var toggleItem= document.getElementsByClassName('show-description')[1];//get second item of class and assign it to variable
-    var toggleTitle= document.getElementsByClassName('toggle-title')[1];//get the title div of the second element with that class
-
-    var height = toggleItem.style.height; //get item current height value
-
-    if(height !== 'auto'){
-        toggleItem.style.height='auto';
-        toggleItem.style.paddingRight='56px';
-        toggleItem.style.paddingBottom='13px';
-        toggleItem.style.transform='scaleY(1)';
-        toggleTitle.classList.remove("symbolPlus");
-        toggleTitle.classList.add("symbolMinus");
-    }else if(height==='auto'){
-        toggleItem.style.height='0';
-        toggleItem.style.padding='0';
-
-        toggleItem.style.transform='scaleY(0)';
-        toggleItem.style.transformOrigin='bottom';
-        toggleItem.style.transition = 'transform .25s ease';
-        toggleTitle.classList.remove("symbolMinus");
-        toggleTitle.classList.add("symbolPlus");
-    }
-}
-function toggleItem3(){
-    var toggleItem= document.getElementsByClassName('show-description')[2];//get third item of class and assign it to variable
-    var toggleTitle= document.getElementsByClassName('toggle-title')[2];//get the title div of the third element with that class
-
-    var height = toggleItem.style.height; //get item current height value
-
-    if(height !== 'auto'){
-        toggleItem.style.height='auto';
-        toggleItem.style.paddingRight='56px';
-        toggleItem.style.paddingBottom='13px';
-        toggleItem.style.transform='scaleY(1)';
-        toggleTitle.classList.remove("symbolPlus");
-        toggleTitle.classList.add("symbolMinus");
-    }else if(height==='auto'){
-        toggleItem.style.height='0';
-        toggleItem.style.padding='0';
-
-        toggleItem.style.transform='scaleY(0)';
-        toggleItem.style.transformOrigin='bottom';
-        toggleItem.style.transition = 'transform .25s ease';
-        toggleTitle.classList.remove("symbolMinus");
-        toggleTitle.classList.add("symbolPlus");
-    }
-}
-function toggleItem4(){
-    var toggleItem= document.getElementsByClassName('show-description')[3];//get fourth item of class and assign it to variable
-    var toggleTitle= document.getElementsByClassName('toggle-title')[3];//get the title div of the second element with that class
-
-    var height = toggleItem.style.height; //get item current height value
-
-    if(height !== 'auto'){
-        toggleItem.style.height='auto';
-        toggleItem.style.paddingRight='56px';
-        toggleItem.style.paddingBottom='13px';
-        toggleItem.style.transform='scaleY(1)';
-        toggleTitle.classList.remove("symbolPlus");
-        toggleTitle.classList.add("symbolMinus");
-    }else if(height==='auto'){
-        toggleItem.style.height='0';
-        toggleItem.style.padding='0';
-
-        toggleItem.style.transform='scaleY(0)';
-        toggleItem.style.transformOrigin='bottom';
-        toggleItem.style.transition = 'transform .25s ease';
-        toggleTitle.classList.remove("symbolMinus");
-        toggleTitle.classList.add("symbolPlus");
-    }
-}
+}*/
