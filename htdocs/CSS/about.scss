@@ -115,6 +115,7 @@
         .toggle-title {
           display: flex;
           cursor: pointer;
+          //overflow: hidden;
 
           p {
             font-size: 24px;
@@ -130,6 +131,7 @@
             transform: scaleY(0);
             transform-origin: bottom;
             transition: transform .25s ease;
+            overflow: hidden;
           }
 
         }
