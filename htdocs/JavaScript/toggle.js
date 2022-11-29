@@ -1,5 +1,3 @@
-//to make it scalable you need to check the list of elements and check each element via index to see if it was clicked on
-// -> for loop that checks from 1 to n (.length) if element of index = true and set it as toggleItem if it exists
 //window.onload waits for all html element to be there before executing the js script
 window.onload = function (){
     accordion();
