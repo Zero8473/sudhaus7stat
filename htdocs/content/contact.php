@@ -49,9 +49,9 @@
 
     <div class="contact-form">
         <form action="/#wpcf7-f5-p9-o1" method="post" enctype="text/plain">
-            <input type="text" class="input" name="name" value="Name">
+            <input type="text" class="input" name="name" placeholder="Name">
             <br>
-            <input type="text" class="input" name="mail" value="E-Mail Adresse">
+            <input type="text" class="input" name="mail" placeholder="E-Mail Adresse">
             <br>
             <textarea cols="40" rows="10" name="message" placeholder="Ihre Nachricht an uns"></textarea>
             <br>

@@ -76,6 +76,9 @@
         color: #000;
         border-style: solid;
         border-width: 0;
+        &::placeholder{
+          opacity: 1;
+        }
       }
       textarea{
         font-family: "Raleway",Raleway Sans-serif !important;
