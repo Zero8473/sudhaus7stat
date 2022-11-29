@@ -54,19 +54,13 @@ header{
     transition: all .5s ease 0s;
     display: block;
     z-index: 99999;
-    figure{
+    .figure{
       width: 54px;
       padding: .6em .2em;
       text-align: center;
       position: relative;
       cursor: pointer;
-      img{
-        width:100%;
-        max-width: 25px;
-        border: none;
 
-
-      }
       &:after{
         content: '';
         position: absolute;
