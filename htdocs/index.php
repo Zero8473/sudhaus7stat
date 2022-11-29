@@ -45,6 +45,10 @@
         <?php require_once './content/contact.php'?>
     </div>
 
+    <div class="footer-container">
+        <?php require_once './content/service.php'?>
+    </div>
+
 
 
 
