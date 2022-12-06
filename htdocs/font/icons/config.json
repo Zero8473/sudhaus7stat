@@ -29,6 +29,12 @@
       "css": "instagram",
       "code": 61805,
       "src": "fontawesome"
+    },
+    {
+      "uid": "9e251fb8e9e1c71ab09683468e0479a3",
+      "css": "up-open-mini",
+      "code": 59394,
+      "src": "entypo"
     }
   ]
 }

@@ -68,6 +68,28 @@ body{
     }
   }
 
+
+  .toTop{
+    text-decoration: none;
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    z-index: 999;
+    color: #ee7f00;
+    &:hover{
+      color:#3b3d42;
+    }
+    &:before{
+      display: inline-block;
+      font-size: inherit;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 100%;
+      font-size: 29px !important;
+    }
+  }
+
   /*button*/
   @import "button.scss";
 

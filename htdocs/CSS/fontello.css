@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/icons/fontello.eot?4108029');
-  src: url('../font/icons/fontello.eot?4108029#iefix') format('embedded-opentype'),
-       url('../font/icons/fontello.woff2?4108029') format('woff2'),
-       url('../font/icons/fontello.woff?4108029') format('woff'),
-       url('../font/icons/fontello.ttf?4108029') format('truetype'),
-       url('../font/icons/fontello.svg?4108029#fontello') format('svg');
+  src: url('../font/icons/fontello.eot?96566339');
+  src: url('../font/icons/fontello.eot?96566339#iefix') format('embedded-opentype'),
+  url('../font/icons/fontello.woff2?96566339') format('woff2'),
+  url('../font/icons/fontello.woff?96566339') format('woff'),
+  url('../font/icons/fontello.ttf?96566339') format('truetype'),
+  url('../font/icons/fontello.svg?96566339#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -58,3 +58,4 @@
 .icon-mail:before { content: '\e801'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-up-open-mini:before { content: '\e802'; } /* '' */

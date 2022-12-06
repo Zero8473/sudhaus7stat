@@ -15,3 +15,9 @@
     <div class="figure"><p class="icon-facebook"></div>
     <div class="figure"><p class="icon-instagram"></div>
 </div>
+
+<div>
+    <a href="#top" class="icon-up-open-mini toTop"></a>
+</div>
+
+
