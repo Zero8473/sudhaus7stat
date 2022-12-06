@@ -1,6 +1,7 @@
 .service-container{
-background-color: #2b3238;
   width: 100%;
+  background-color: #2b3238;
+
   .services{
     display: flex;
     flex-direction: row;
@@ -18,4 +19,76 @@ background-color: #2b3238;
       }
     }
   }
+}
+
+.rights-container{
+  width: 100%;
+  padding: 10px 0;
+  background-color: black;
+  .rights-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0 0;
+    .logo-mini{
+      padding-top: 5px;
+    }
+    .logo-mini, .trademark{
+      width: 25%;
+      /*margin: 0;
+      padding: 0 15px;*/
+    }
+    .logo-mini{
+      width: 25%;
+      img{
+        width: 44px;
+        max-width: 44px;
+      }
+    }
+
+    .trademark{
+      padding-top: 10px;
+      color: #fff;
+    }
+    .footer-links{
+      display: flex;
+      flex-direction: row;
+      width: 36.083%;
+      margin: 0;
+      padding: 10px 15px 0 15px;
+      [class^="link-"]{
+        padding-left: 15px;
+        padding-right: 15px;
+        a{
+          color: #ee7f00;
+          text-decoration: none;
+        }
+      }
+      .link-1{
+        padding-left: 0;
+      }
+    }
+    .footer-icons-container{
+      width: 13.917%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 10px 15px 0 15px;
+      .footer-icons{
+        padding: 0;
+        color: #fff;
+        .icon-facebook, .icon-instagram{
+          &:before{
+            font-size: 15px !important;
+            padding-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+
 }
