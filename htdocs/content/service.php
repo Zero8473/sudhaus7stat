@@ -34,26 +34,31 @@
 
         <div class="footer-links">
             <div class="link-1">
-                <a href="">
+                <a href="https://sudhaus7.de/impressum/">
                     Impressum
                 </a>
             </div>
 
             <div class="link-">
-                <a href="">
+                <a href="https://sudhaus7.de/datenschutzerklaerung-von-sudhaus7/">
                     Datenschutzerklärung
                 </a>
             </div>
         </div>
 
         <div class="footer-icons-container">
-            <div class="footer-icons">
-                <p class="icon-facebook">
-            </div>
+            <a href="https://www.facebook.com/Sudhaus7.Stuttgart" target="_blank">
+                <div class="footer-icons">
+                    <p class="icon-facebook">
+                </div>
+            </a>
 
-            <div class="footer-icons">
-                <p class="icon-instagram">
-            </div>
+            <a href="https://www.instagram.com/sudhaus7/" target="_blank">
+                <div class="footer-icons" >
+                    <p class="icon-instagram">
+                </div>
+            </a>
+
         </div>
 
     </div>
