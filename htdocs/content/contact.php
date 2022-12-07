@@ -33,8 +33,8 @@
                     <p>Sigmaringer Straße 98</p>
                     <p>70567 Stuttgart</p>
                 </div>
-
             </div>
+
             <div class="location">
                 <p style="font-weight:700 ">Wien</p>
                 <p>Tel +43 720 882013</p>
