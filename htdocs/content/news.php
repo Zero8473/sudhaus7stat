@@ -50,26 +50,31 @@
 </div>
 
 <div class="newsletter">
-    <div class="news-title">
-        <p>Nachgeschenkt</p>
-    </div>
+    <div class="newsletter-content">
+        <div class="news-title">
+            <p>Nachgeschenkt</p>
+        </div>
 
-    <div class="news-subtitle">
-        <h2>
-            News
-            <br>
-            Aus dem Brauhaus
-        </h2>
-    </div>
+        <div class="news-subtitle">
+            <h2>
+                News
+                <br>
+                Aus dem Brauhaus
+            </h2>
+        </div>
 
-    <div class="news-text">
-        <p>
-            Bestellen Sie unseren Newsletter und Sie erhalten monatlich aktuelle Themen,
-            Blogs und News aus unserem Brauhaus ganz frisch gezapft!
-        </p>
-    </div>
+        <div class="news-text">
+            <p>
+                Bestellen Sie unseren Newsletter und Sie erhalten monatlich aktuelle Themen,
+                Blogs und News aus unserem Brauhaus ganz frisch gezapft!
+            </p>
+        </div>
 
-    <form>
-        <input type="email" id="newsletter-mail" name="newsletter-mail" placeholder="Ihre E-Mail-Adresse">
-    </form>
+        <form class="user-email" method="POST" action="#">
+            <input type="email" id="newsletter-mail" name="newsletter-mail" placeholder="Ihre E-Mail-Adresse">
+            <a href="#" class="email-submit">
+                <p class="icon-mail submit-icon"></p>
+            </a>
+        </form>
+    </div>
 </div>
