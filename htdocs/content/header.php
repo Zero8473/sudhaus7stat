@@ -10,10 +10,10 @@
 </div>
 
 <div class="toolbar">
-    <div class="figure"><p class="icon-phone"></div>
-    <div class="figure"><p class="icon-mail"></div>
-    <div class="figure"><p class="icon-facebook"></div>
-    <div class="figure"><p class="icon-instagram"></div>
+    <div class="figure"><p class="icon-phone"></p></div>
+    <div class="figure"><p class="icon-mail"></p></div>
+    <div class="figure"><p class="icon-facebook"></p></div>
+    <div class="figure"><p class="icon-instagram"></p></div>
 </div>
 
 <div>
