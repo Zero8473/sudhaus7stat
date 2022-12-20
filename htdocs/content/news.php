@@ -1,52 +1,60 @@
 <div class="blog">
-    <div class="blog-title">
-        <p>Frisch gezapft</p>
-    </div>
-
-    <div class="blog-subtitle">
-        <h1>Unser Mitarbeiter-Blog</h1>
-    </div>
-
-    <div class="divider-1 fade-in-right anim-slow">
-        <span id="empty"></span>
-        <span class="divider-element"></span>
-    </div>
-
-    <div class="article">
-        <div class="article-title">
-            <h2>Lorem Ipsum dolor</h2>
+    <div class="blog-content">
+        <div class="blog-title">
+            <p>Frisch gezapft</p>
         </div>
 
-        <div class="post">
-            <div class="article-author">
-                Posted by Andreas Held
-            </div>
-            <div class="article-date">
-                <p>30. August 2022</p>
-            </div>
-        </div>
-
-        <div class="article-text">
-            <p>
-                Lorem Ipsum dolor Lorem Ipsum dolorLorem Ipsum dolorLorem Ipsum dolorLorem Ipsum dolorLorem Ipsum dolor
-            </p>
-        </div>
-
-        <div class="more">
-            <a href="">
-                <p>Mehr</p>
+        <div class="blog-subtitle">
+            <a href="https://www.sudhaus7.de/blog">
+                <h2>Unser Mitarbeiter-Blog</h2>
             </a>
         </div>
 
-        <div class="slick-dots"></div>
+        <div class="divider-1 fade-in-right anim-slow">
+            <span id="empty"></span>
+            <span class="divider-element"></span>
+        </div>
 
-        <div class="articles-button">
-            <a href="">
-                <span>Alle Blogbeiträge</span>
-            </a>
+        <div class="article">
+            <h4 class="article-title">
+                <a href="#">Das Typo3 Datenschutztool</a>
+            </h4>
+
+            <div class="post">
+                <span class="article-author">
+                    Posted by <a href="#">Andreas Held</a>
+                </span>
+
+                <span class="article-date">
+                    <a href="#">30. August 2022</a>
+                </span>
+            </div>
+
+            <div class="article-text">
+                <p>
+                    In einem früheren Blogbeitrag haben wir das TYPO3-Baukastensystem unseres Partners
+                    Evangelisches Medienhaus vorgestellt und darauf verwiesen,
+                    dass wir immer wieder interessante Features
+                    und Module aus diesem System vorstellen werden.
+                    Das jüngste „Baby“ ist mit dem Datenschutztool nun realisiert und setzt…
+                </p>
+            </div>
+
+            <div class="more">
+                <a href="#">
+                    <p>Mehr<span class="icon-up-open-mini rotate"></span></p>
+                </a>
+            </div>
+
+            <div class="slick-dots"></div>
+
+            <div class="articles-button button">
+                <a href="#">
+                    <span>Alle Blogbeiträge</span>
+                </a>
+            </div>
         </div>
     </div>
-
 </div>
 
 <div class="newsletter">
