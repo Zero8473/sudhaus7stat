@@ -35,6 +35,12 @@
       "css": "up-open-mini",
       "code": 59394,
       "src": "entypo"
+    },
+    {
+      "uid": "5211af474d3a9848f67f945e2ccaf143",
+      "css": "cancel",
+      "code": 59395,
+      "src": "fontawesome"
     }
   ]
 }
