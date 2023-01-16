@@ -41,6 +41,12 @@
       "css": "cancel",
       "code": 59395,
       "src": "fontawesome"
+    },
+    {
+      "uid": "291e2e127efe7a6bc580af6d3ead3771",
+      "css": "location",
+      "code": 61489,
+      "src": "mfglabs"
     }
   ]
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
 <defs>
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
@@ -13,6 +13,8 @@
 <glyph glyph-name="up-open-mini" unicode="&#xe802;" d="M62 230q-26-22-50 0-24 24 0 50l196 190q26 26 48 0l196-190q24-26 0-50-24-22-50 0l-170 158z" horiz-adv-x="464" />
 
 <glyph glyph-name="cancel" unicode="&#xe803;" d="M724 112q0-22-15-38l-76-76q-16-15-38-15t-38 15l-164 165-164-165q-16-15-38-15t-38 15l-76 76q-16 16-16 38t16 38l164 164-164 164q-16 16-16 38t16 38l76 76q16 16 38 16t38-16l164-164 164 164q16 16 38 16t38-16l76-76q15-15 15-38t-15-38l-164-164 164-164q15-15 15-38z" horiz-adv-x="785.7" />
+
+<glyph glyph-name="location" unicode="&#xf031;" d="M0 473q0 70 27 134 25 61 74 111 47 47 110 73 63 27 134 27 72 0 135-27 62-26 110-73 48-49 74-111 27-64 27-134t-27-134q-18-40-36-65l-229-347q-22-35-53-35t-55 35l-228 347q-22 31-36 65-27 64-27 134z m217 0q0-53 37-91 38-38 91-38 54 0 91 38 38 37 38 91 0 53-38 91-37 38-91 38-53 0-91-38-37-38-37-91z" horiz-adv-x="691.4" />
 
 <glyph glyph-name="facebook" unicode="&#xf09a;" d="M535 843v-147h-87q-48 0-65-20t-17-60v-106h164l-22-165h-142v-424h-171v424h-142v165h142v122q0 104 58 161t155 57q82 0 127-7z" horiz-adv-x="571.4" />
 
