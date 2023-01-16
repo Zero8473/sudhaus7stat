@@ -46,31 +46,101 @@ header{
     }
   }
   .toolbar{
-    position: fixed;
-    background: var(--color-orange);
-    top: 35%;
-    right: 0;
-    transition: all .5s ease 0s;
-    display: block;
+    display: flex;
     z-index: 99999;
-    .figure{
-      width: 54px;
-      padding: .6em .2em;
-      text-align: center;
-      position: relative;
-      cursor: pointer;
-      &:after{
-        content: '';
-        position: absolute;
-        width: 60%;
-        left: 20%;
-        background: #fff;
-        height: 1px;
-        bottom: 0;
-      }
-      &:last-child:after{
-        display: none;
+    .left-column{
+      position: fixed;
+      background: var(--color-orange);
+      top: 35%;
+      right: 0;
+      transition: all .5s ease 0s;
+      .figure{
+        width: 54px;
+        padding: .6em .2em;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        &:after{
+          content: '';
+          position: absolute;
+          width: 60%;
+          left: 20%;
+          background: #fff;
+          height: 1px;
+          bottom: 0;
+        }
+        &:last-child:after{
+          display: none;
+        }
       }
     }
+    .toolbar-info{
+      position: fixed;
+      height: 100vh;
+      transition: all .5s ease 0s;
+      background-color: #f1f1f1dd;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+      width: 300px;
+      top: 0;
+      right: -300px;
+      z-index: 100000;
+      padding: 3em 1em;
+      box-sizing: border-box;
+      .close-toolbar{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        cursor: pointer;
+        text-align: center;
+        opacity: .8;
+        transition: all .3s;
+        .icon-cancel{
+          &:before{
+            width:auto;
+            margin-left:0;
+            color:#465a6b;
+          }
+        }
+      }
+      .toolbar-info-item{
+        margin: 2em 0;
+        [class^="icon-"]:before, [class*=" icon-"]:before{
+          color: #465a6b;
+        }
+        .toolbar-info-text{
+          width:70%;
+        }
+        span{
+          display: inline-block;
+          vertical-align: middle;
+          &:first-child{
+            width: 40px;
+            text-align: center;
+          }
+          &:nth-child(2){
+            font-weight: 600;
+            color: #000;
+          }
+          a{
+            color: #000;
+            transition: all .3s;
+            text-decoration: none;
+            &:hover{
+              color:var(--color-orange);
+            }
+          }
+
+      }
+    }
+  }
+    .to-left{
+      right:300px;
+    }
+    .to-left2{
+      right: 0;
+    }
+
   }
 }
