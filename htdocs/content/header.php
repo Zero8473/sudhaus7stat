@@ -10,13 +10,13 @@
 </div>
 
 <div class="toolbar">
-    <div class="left-column to-left">
+    <div class="left-column  expand">
         <div class="figure"><p class="icon-phone"></p></div>
         <div class="figure"><p class="icon-mail"></p></div>
         <div class="figure"><p class="icon-facebook"></p></div>
         <div class="figure"><p class="icon-instagram"></p></div>
     </div>
-    <div class="toolbar-info to-left2">
+    <div class="toolbar-info  expand">
         <div class="close-toolbar">
             <div class="icon-cancel"></div>
         </div>
