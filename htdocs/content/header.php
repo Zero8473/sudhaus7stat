@@ -16,8 +16,8 @@
         <div class="figure"><p class="icon-facebook"></p></div>
         <div class="figure"><p class="icon-instagram"></p></div>
     </div>
-    <div class="toolbar-info  expand">
-        <div class="close-toolbar">
+    <div class="toolbar-info">
+        <div class="close-toolbar expand">
             <div class="icon-cancel"></div>
         </div>
 

@@ -13,23 +13,23 @@ const toolboxinfo = function(){
             console.log(this);
             //check if clicked element is active
             //if toolbar info is expanded
-            if(this.classList.contains('to-left') || this.classList.contains('to-left2')){
+            if(this.classList.contains('to-left') || this.parentElement.classList.contains('to-left2')){
                 //minimize elements on click
                 for(let j=0; j < iconbox.length; j++){
                     if(iconbox[j].classList.contains('left-column')){
                         iconbox[j].classList.remove('to-left');
-                    }else if(iconbox[j].classList.contains('toolbar-info')){
-                        iconbox[j].classList.remove('to-left2');
+                    }else if(iconbox[j].parentElement.classList.contains('toolbar-info')){
+                        iconbox[j].parentElement.classList.remove('to-left2');
                     }
                 }
             //if toolbar info is not expanded
-            }else if(!(this.classList.contains('to-left') && this.classList.contains('to-left2'))){
+            }else if(!(this.classList.contains('to-left') && this.parentElement.classList.contains('to-left2'))){
                 //expand elements on click
                 for(let k=0; k < iconbox.length; k++){
                     if(iconbox[k].classList.contains('left-column')){
                         iconbox[k].classList.add('to-left');
-                    }else if(iconbox[k].classList.contains('toolbar-info')){
-                        iconbox[k].classList.add('to-left2');
+                    }else if(iconbox[k].parentElement.classList.contains('toolbar-info')){
+                        iconbox[k].parentElement.classList.add('to-left2');
                     }
                 }
             }
